@@ -60,7 +60,7 @@ i{
     background-color: rgb(96, 175, 253);
     width: 100%;
     padding: 10px 5px;
-    display: none;
+    display: block;
 }
 
 ul{
