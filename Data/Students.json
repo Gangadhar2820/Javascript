@@ -1,0 +1,27 @@
+[
+    {
+        "name":"abhiram",
+        "branch":"cse",
+        "rollno":1
+    },
+    {
+        "name":"ameen khan",
+        "branch":"cse",
+        "rollno":2
+    },
+    {
+        "name":"ranga",
+        "branch":"cse",
+        "rollno":5
+    },
+    {
+        "name":"siva",
+        "branch":"cse",
+        "rollno":7
+    },
+    {
+        "name":"charan",
+        "branch":"cse",
+        "rollno":8
+    }
+]

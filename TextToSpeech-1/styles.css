@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width:100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+    background-color:azure;
+}
+
+#inputText{
+    resize: none;
+    padding:8px;
+    font-size: large;
+}
+
+#inputText:focus{
+    border: 2px solid cornflowerblue;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+label:nth-of-type(2){
+    margin-top:20px;
+}
+
+button{
+    width:50%;
+    height:30px;
+    align-self: center;
+    margin-top:20px;
+    background-color: darkturquoise;
+    color:white;
+    cursor: pointer;
+}
+select{
+    height: 20px;
+    font-size: 14px;
+}
