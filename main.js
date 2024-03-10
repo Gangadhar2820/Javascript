@@ -1,18 +1,11 @@
+let head = document.querySelector(".head");
+let up = document.querySelector(".up");
+let down = document.querySelector(".down");
+let body = document.querySelector(".body");
 
-let var1 = 25;
-
-let var2 = 35;
-
-function add(a,b){
-    console.log(a+b)
-}
-function sub(a,b){
-    console.log(a-b)
-}
-function multiply(a,b){
-console.log(a*b)
-}
-
-add(var1,var2)
-sub(var1,var2)
-multiply(var1,var2)
+head.onclick = () => {
+  up.classList.toggle("show");
+  down.classList.toggle("show");
+  if (!body.style.display || body.style.display == "none") body.style.display = "block";
+  else body.style.display = "none"
+};
